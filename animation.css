@@ -1,0 +1,211 @@
+.navbar{
+    background-color: black;
+    height: 90px;
+}
+
+#intro{
+    width: 100%;
+    height: 900px;
+    z-index: -2;
+}
+
+.video:hover p{
+    opacity: 1;
+    animation-name: comeup;
+    animation-duration: 2s;
+}
+
+@keyframes comeup{
+     from{translate: 0px 250px ;}
+}
+
+#characters{
+    width:100%;
+    height: 900px;
+    z-index: -2;
+    display: none;
+}
+
+.slider:hover p{
+    opacity: 1;
+    animation-name: comeup;
+    animation-duration: 2s;
+}
+
+#duel{
+    width: 100%;
+    height: 900px;
+    z-index: -2;
+    display: none;
+}
+
+.strategy:hover p{
+    opacity: 1;
+    animation-name: comeup;
+    animation-duration: 2s;
+}
+
+.agents{
+    background-image: linear-gradient(black,rgb(117, 0, 0));
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+ 
+}
+
+ #seemore:hover .color{
+    width:130px; 
+
+}
+ #seemore2:hover .color1{
+    width:130px; 
+
+
+
+}
+
+#seemore:hover,#seemore2:hover{
+font-size: 16px;
+box-shadow: 0px 0px 3px plum;
+padding: 0;
+
+}
+#seemore:hover::after,#seemore2:hover::after{
+content: " >>";
+
+}
+
+@keyframes up{
+    from{
+        translate: 0px 40px;
+    }
+}
+
+
+.maps video{
+    height: 900px;
+    width: 100%;
+
+}
+
+.maps:hover p{
+    opacity: 1;
+    animation-name: comeup;
+   animation-duration: 2s;
+}
+
+#bg{
+    z-index: -3;
+    width: 100%;
+    height: 900px;
+}
+
+@keyframes agents {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0);
+        transform: translatey(0px);
+      }
+      50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0);
+        transform: translatey(-20px);
+      }
+      100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0);
+        transform: translatey(0px);
+      }
+    }
+@keyframes navbar {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0);
+        transform: translatey(0px);
+      }
+      50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0);
+        transform: translatey(-7px);
+      }
+      100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0);
+        transform: translatey(0px);
+      }
+    }
+
+
+    #learn:hover{
+box-shadow: 0px 0px 13px rgb(255, 0, 255);
+font-size: 16px;
+    }
+
+    #playlist:hover,#armory:hover{
+        box-shadow: 0px 0px 8px rgb(228, 114, 184);
+font-size: 16px;
+text-decoration: underline;
+
+    }
+
+
+    
+.list li:hover:not(#se){
+    animation-name: navbar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    text-decoration: underline rgb(206, 66, 101) ;
+    cursor: pointer;
+    color: rgb(206, 66, 101);
+    transition: all 0.5s ease 0s;
+    animation-timing-function: linear;
+    
+}
+
+
+#se:hover{
+    background-color: rgb(206, 66, 101);
+    height: 30px;
+    border-radius: 30px;
+    user-select: none;
+ 
+
+}
+   #play-val:hover{
+box-shadow: 0px 0px 5px orange;
+border: none;
+
+   }
+
+ #m-b:hover,#m-b1:hover{
+    box-shadow: 0px 0px 5px rgb(236, 98, 133);
+
+ }
+
+
+ #gc:hover,#rma:hover{
+    background-color: rgb(27, 27, 27);
+    border-radius: 2px;
+ }
+
+ .cookie button:hover{
+    background-color: rgb(70, 70, 70);
+    border-radius: 2px;
+ }
+
+ .social button:hover{
+    animation-name: navbar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    cursor: pointer;
+    font-size: 24px;
+
+ }
+
+ .close-i img:hover{
+background-color: rgb(41, 41, 41);
+ }
+ 
+
+ @media screen and (max-width:600px){
+    body{
+       width: 100%;
+     
+     
+    }
+ }

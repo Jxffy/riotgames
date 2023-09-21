@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lora:wght@500&family=Montserrat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lora:wght@500&family=Montserrat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lora:wght@500&family=Montserrat&display=swap" rel="stylesheet">
+<link rel="icon" href="images/v logo.webp">
+</head>
+<body>
+    <header>  <div class="navbar">
+    <img src="images/riot.png" alt="" id="riot">
+      
+     <span id="bar">|</span> 
+     <img src="images/v logo.webp" alt="" id="logo"> 
+       </div>
+       <div class="list">   <nav>
+            <ul>
+              <a href=""> <li><i class="fa-solid fa-house-chimney"></i></i>Home</li></a>
+              <a href="https://www.riotgames.com/en/who-we-are" target="_blank"> <li><i class="fa-solid fa-address-card"></i>About</li></a>
+                <a href="https://authenticate.riotgames.com/?client_id=accountodactyl-prod&method=riot_identity&platform=web&redirect_uri=https%3A%2F%2Fauth.riotgames.com%2Fauthorize%3Facr_values%3Durn%253A" target="_blank">   <li> <i class="fa-solid fa-gamepad"></i>More Games </li></a>
+                    <a href="">   <li><i class="fa-solid fa-phone"></i>Contact </li></a>
+                    <li id="se"> search</li>
+                    <input type="text" id="searchbar" name="sb">   <button id="search" name="sb"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  <a href="https://playvalorant.com/en-gb/download/" target="_blank"> <button id="play-val">PLAY NOW</button></a> 
+                
+                   <!-- <div class="cntr-innr">
+                        <label class="search" for="inpt_search">
+                              <input id="inpt_search" type="text" style="background: none; border: none; width: 300px; color: white;position: relative; top: -7px;
+                               font-size: 15px; outline: none;" />
+                          </label>
+                      </div>
+                  </div> -->
+                 <button id="profile"><i style="padding: 5px;" class="fa-solid fa-user"></i>User_Name</button>
+            </ul>
+        </nav></div>
+   
+         
+ 
+    </header>
+        <main>
+        
+
+    <div class="video">
+        <video id="intro" src="videos/Untitled video - Made with Clipchamp - Trim - Trim.mp4" autoplay loop muted ></video>
+
+        <button style="background: none; border: none; z-index: 3;" id="next" href=""><i class="fa-solid fa-forward"></i></button>
+        <button style="background: none; border: none; z-index: 3;" id="before" href=""><i class="fa-solid fa-backward"></i><button>
+
+        <p id="intro-p">"Valorant is a team-based first-person tactical hero shooter set in the near future.Players play as one of a set of Agents, characters based on several countries and cultures around the world. In the main game mode, players are assigned to either the attacking or defending team with each team having five players on it. Agents have unique abilities, each requiring charges, as well as a unique ultimate ability that requires charging through kills, deaths, orbs, or objectives."" </p>
+      </div> 
+<div class="slider">
+<video id="characters" src="videos/y2mate.com - UNITED TOGETHER  China Launch Official Cinematic  VALORANT_1080p - Trim - Trim - Trim.mp4"  autoplay loop muted></video>
+<p id="char-p">"There are a large variety of playable agents available in the game. Agents are divided into 4 roles: Duelists, Sentinels, Initiators, and Controllers. Each agent has a different role which indicates how the agent is usually played.
+
+    Duelists specialize in attacking and entering a bomb site for the team.
+    Sentinels are the defensive line, which specializes in locking down sites and protecting teammates from enemies. Their abilities mainly consist of static 'objects' that are obstacles to the enemies.
+    Initiators plan out the offensive pushes. Initiators specialize in breaking through defensive enemy positions.Controllers specialize in "slicing up dangerous territory to set their team up for success"</p>
+</div>
+
+<h1 id="h1">AGENTS</h1>
+<div class="agents">
+    <img src="//playvalorant.com/static/agents-group-31d7ce5a3637e45d8b25d2fd03159e6c.png;" alt="">
+    <p>"There are a large variety of playable agents available in the game. Agents are divided into 4 roles: Duelists, Sentinels, Initiators, and Controllers. Each agent has a different role which indicates how the agent is usually played.
+
+        Duelists specialize in attacking and entering a bomb site for the team.
+        Sentinels are the defensive line, which specializes in locking down sites and protecting teammates from enemies. Their abilities mainly consist of static 'objects' that are obstacles to the enemies.
+        Initiators plan out the offensive pushes. Initiators specialize in breaking through defensive enemy positions.Controllers specialize in "slicing up dangerous territory to set their team up for success"</p>
+
+      
+</div>
+<div class="button">
+    <button id="seemore">   <span class="color"></span>   Explore</button>
+</div>
+
+<div id="moreagents" class="more-agents">
+    <h1 style="padding: 20px;font-family: anton;font-weight: lighter;">Available Agents : 22</h1> <br>
+  <div class="phoenix">
+    <h1  onclick="playaudio5()">1. Phoenix</h1>
+    <h2>Duelist</h2>
+    <p>
+<br>
+Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he'll rush into a fight on his own terms.</p>
+  <img onclick="playaudio()" id="ph" src="https://media-s3-us-east-1.ceros.com/redbull/images/2021/02/24/ba82dedd1b7417d3b7c9ec1b9ce1e2ed/phx.png?imageOpt=1"alt="">
+  <audio id="ph-a" src="audio/PhoenixUltEnemy.mp3" ></audio>
+  <audio id="ma-a" src="audio/PhoenixAce1.mp3"></audio>
+  <video id="ge" src="videos/y2mate.com - Valorant All Phoenix Skills_1080pFHR - Trim.mp4" controls  muted></video>
+  </div>
+  <div class="jett">
+    <h1  onclick="playaudio6()">2. Jett</h1>
+    <h2>Duelist</h2><br>
+    <p>Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.</p>
+ <img onclick="playaudio1()" src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png" alt="">
+ <audio id="ph-b" src="audio/wind_show_me.mp3"></audio>
+ <audio id="ma-b" src="audio/JettAce1.mp3"></audio>
+ <video id="ge" src="videos/y2mate.com - Valorant All Jett abilities_1080pFHR - Trim.mp4" controls  muted></video>
+  </div>
+  <div class="geeko">
+    <h1  onclick="playaudio7()">3. Geeko</h1>
+    <h2>Initiator</h2><br>
+    <p>Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again</p>
+    <img onclick="playaudio2()" src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc942933be01094ae/6402724fe9f75310481c3851/V_AGENTS_587x900_Gekko2.png" alt="">
+    <audio id="ph-c" src="audio/396082823.mp3"></audio>
+    <audio id="ma-c" src="audio/GekkoAce1.mp3"></audio>
+   <video id="ge" src="videos/y2mate.com - GEKKKO ABILITIES IN GAME_1080pFH - Trim - Trim.mp4" controls  muted></video>
+  </div>
+  <!-- <div class="sage"> 
+    <h1>4. Sage</h1>
+    <h2>Sentinal</h2><br>
+    <p>The stronghold of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.</p>
+    <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a627ec10b57f4f2/5eb7cdc16509f3370a5a93b7/V_AGENTS_587x900_sage.png" alt="">
+  </div> -->
+  <!-- <div class="viper"> -->
+    <!-- <h1>5. Viper</h1>
+    <h2>Controller</h2><br>
+    <p>The American Chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and choke the enemy's vision. If the toxins don't kill her prey, her mindgames surely will.</p>
+    <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc825c6589eda7717/5eb7cdc6ee88132a6f6cfc25/V_AGENTS_587x900_Viper.png" alt="">
+  </div>
+  <div class="chamber">
+    <h1>6. Chamber</h1>
+    <h2>Sentinal</h2><br>
+    <p>Well dressed and well armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.</p>
+    <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6f1392b30784e029/618d9da0d380f814d61f001c/WebUpdate_Chamber_KeyArt.png" alt="">
+  </div>
+  <div class="neon">
+    <h1>7. Neon</h1>
+    <h2>Duelist</h2><br>
+    <p>Filipino Agent Neon surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard, then strikes them down quicker than lightning</p>
+    <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8093ba7b5e84ed05/61d8a63ddea73a236fc56d12/Neon_KeyArt-Web.png" alt="">
+  </div>
+  <div class="killjoy">
+    <h1>8. Killjoy</h1>
+    <h2>Sentinel</h2><br>
+    <p>The genius of Germany. Killjoy secures the battlefield with ease using her arsenal of inventions. If the damage from her gear doesn't stop her enemies, her robots' debuff will help make short work of them.</p>
+    <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt53405c26141beff8/5f21fda671ec397ef9bf0894/V_AGENTS_587x900_KillJoy_.png" alt="">
+  </div> -->
+  <div class="reyana">
+    <h1  onclick="playaudio8()">4. Reyna</h1>
+    <h2>Duelist</h2><br>
+    <p>Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.</p>
+    <img onclick="playaudio3()" src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6577b1f58530e6b2/5eb7cdc121a5027d77420208/V_AGENTS_587x900_Reyna.png" alt="">
+    <audio id="ph-d" src="audio/685290704.mp3"></audio>
+    <audio id="ma-d" src="audio/ReynaAce1.mp3"></audio>
+    <video id="ge" src="videos/y2mate.com - Reyna Abilities Showcase  Valorant Reyna Guide  Leer Devour Dismiss Empress_1080pFHR - Trim - Trim - Trim - Trim.mp4" controls  muted></video>
+   
+  </div>
+  <div class="raze">
+    <h1 onclick="playaudio9()">5. Raze</h1>
+    <h2>Duelist</h2> <br>
+    <p>Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of "boom."</p>
+    <img onclick="playaudio4()"  src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6fef56a8182d0a81/5ebf2c2798f79d6925dbd6b4/V_AGENTS_587x900_ALL_Raze_2.png" alt="">
+    <audio id="ph-e" src="audio/raze_ulti_fakiargi.mp3"></audio>
+    <audio id="ma-e" src="audio/RazeAce1.mp3"></audio>
+    <video id="ge" src="videos/y2mate.com - Valorant All Raze Skills NEW_1080p.mp4" controls  muted></video>
+
+  </div>
+  <!-- <div class="yoru"></div>
+  <div class=""></div>
+  <div class=""></div>
+  <div class=""></div>
+  <div class=""></div>
+  <div class=""></div>
+  <div class=""></div>
+  <div class=""></div>
+  <div class=""></div>
+  <div class=""></div>
+  <div class=""></div>
+  <div class=""></div> -->
+<button id="m-b">View All</button>
+<button id="m-b1">Close</button>
+</div>
+<h1 id="map-h">Maps</h1>
+<div class="maps">
+  <video  src="videos/maps.mp4" autoplay loop muted ></video>
+<p>Each match of VALORANT takes place on a map. Most maps feature a spawn area for each team, barriers that limit accessible areas during the Buy Phase for Plant/Defuse game modes, and objective sites where the spike is to be planted.
+  Four maps were available at launch, and a six-month cycle is expected for the release of new maps.
+  
+  There are currently twelve playable maps in VALORANT, with an additional one for practice and training new players.</p>
+  <button id="seemore2"> <span class="color1"></span> Explore</button>
+
+</div>
+<h1 id="gameplay-h">WE ARE VALORANT</h1>
+<div class="gameplay">
+<h2>DEFY THE LIMITS</h2><p id="game-p">
+  Blend your style and experience on a global, competitive stage. You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities. And, with one life per-round, you'll need to think faster than your opponent if you want to survive. Take on foes across Competitive and Unranked modes as well as Deathmatch and Spike Rush.</p>
+
+  <video src="https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltefd45731d8f9d9df/6217f2ea910a6c613c73168c/VALORANT_PLAY22_16x9_Target4_v005.mp4" controls autoplay muted  id="gameplay-v"loop></video>
+  <a href="https://playvalorant.com/en-us/news/announcements/beginners-guide/ " target="_blank"><button id="learn">Learn The Game</button></a>
+  <div class="lay"><p>Gameplay</p></div>
+  <a href="https://www.youtube.com/watch?v=le474A3jBxA" target="_blank"><button id="play"  ><i class="fa-solid fa-play" ></i></button></a>
+</div>
+<h1 id="collab-p">OUR COLLABS</h1>
+<div class="collab"></div>
+  <div id="music-id" class="music">
+    <h1 id="music-h">MUSIC</h1>
+    <p id="music-p">VALORANT had collabed with various artist for their music.They launched about 8 individual singles sang by different artist each for a new lauch of weapon skins or other global events. When we first started talking about ideas, something we established really early on with him was that we wanted to make a skin that would be broadly appealing and awesome whether or not you were familiar with Zedd’s music or brand </p>
+    <video id="music-v" src="videos/music - Trim.mp4" autoplay muted loop></video>
+    
+   
+      <img id="bg" src="https://e0.pxfuel.com/wallpapers/920/705/desktop-wallpaper-made-a-simple-minimalistic-valorant-valorant-valorant-blue.jpg" alt="">
+
+     <a href="https://youtu.be/CdZN8PI3MqM?feature=shared" target="_blank"><button id="playlist">VIEW PLAYLIST</button></a> 
+
+  </div>
+
+
+<div id="weapons-id" class="weapons">
+  <h1 id="weapons-h">WEAPONS</h1>
+ 
+  <img id="bg" src="https://e0.pxfuel.com/wallpapers/920/705/desktop-wallpaper-made-a-simple-minimalistic-valorant-valorant-valorant-blue.jpg" alt="">
+  <p id="weapons-p">Sentinels of Light is Riot's big summer event, bringing the “Ruined” and "Sentinel" thematics to each of our games. Although VALORANT doesn’t occupy the same space as League of Legends, it was a fun opportunity to bring the “Black Mist” that is taking over Runeterra to our weapons.
+
+    Bringing this theme to life offered an interesting challenge: How do we visualize the Black Mist within the crystal while preserving both the competitive integrity of the weapons and creating something that fits within our tight performance constraints?</p> 
+  
+    <video id="weapon-v" src="videos/weapons - Trim - Trim.mp4" autoplay muted loop></video>
+   <a href="https://playvalorant.com/en-gb/arsenal/" target="_blank"><button id="armory">VIEW ARMORY</button></a> 
+
+</div>
+
+
+ 
+ 
+
+</main>
+<footer>
+  <div class="layer1">
+ <a href="https://playvalorant.com/en-gb/download/" target="_blank"> <button id="gc">DOWNLOAD GAME CLIENT</button></a>  
+  <a href="https://play.google.com/store/apps/details?id=com.riotgames.mobile.leagueconnect&referrer=singular_click_id%3D019b4602-4bb7-4811-91de-e07f1dd98a34&pli=1" target="_blank">  <button id="rma">DOWNLOAD RIOT MOBILE COMPANION APP</button></a>
+  </div>
+  <div class="layer2">
+    <ul class="social">
+<a href="https://www.facebook.com/VALORANT" target="_blank"><button id="fb"><i class="fa-brands fa-facebook" ></i></button></a>
+<a href="https://www.youtube.com/@Valorant " target="_blank"><button id="yt"><i class="fa-brands fa-youtube"></i></button></a>
+<a href="https://twitter.com/VALORANTukn" target="_blank"><button id="tw"><i class="fa-brands fa-twitter"></i></button></a>
+<a href="https://discord.com/invite/valorant" target="_blank"><button id="tch"><i class="fa-brands fa-twitch"></i></button></a>
+<a href="https://www.instagram.com/valorant/" target="_blank"><button id="ins"><i class="fa-brands fa-instagram"></i></button></a>
+
+</ul>
+<div class="img-f">
+<img id="rg-i" style="width:100px"  height="40px" src="images/002_RG_2021_FULL_LOCKUP_OFFWHITE.png" alt="" >
+<img src="https://images.contentstack.io/v3/assets/blt0eb2a2986b796d29/blt50870b13992cdf47/63b0d7d089f85210f400107e/val-logo-small.png?&height=75&disable=upscale" alt=""></div>
+
+<p id="conc-p">&copy; 2023 RIOT GAMES , VALORANT, AND ANY ASSOCIATED LOGOS ARE TRADEMARKS , SERVICE MARKS , AND/OR REGISTERED TRADEMARKS OF RIOT GAMES, INC;</p>
+
+<div class="cookie">
+  <a href=""><button id="">PRIVACY NOTE</button></a>
+  <a href=""> <button id="">TERMS SERVICES</button></a>
+    <a href="">  <button id="">COMPANY INFORMATION</button></a>
+      <a href="">  <button id="">COOKIE PREFERENCES</button></a>
+</div>
+<div class="close-i">
+<img src="https://images.contentstack.io/v3/assets/blt0eb2a2986b796d29/blt45fdb1ce76c77293/5e7a5d8ccd562e2d656ccc57/EU_-_16_black.jpg?&height=100&disable=upscale" alt="">
+<img src="https://images.contentstack.io/v3/assets/blt0eb2a2986b796d29/blt65b392ad6fcc1870/5e7d3ccfd84c6d2d6707a600/EU_-_descriptor_violence.png?&height=100&disable=upscale" alt="">
+<img src="https://images.contentstack.io/v3/assets/blt0eb2a2986b796d29/blta4cd2560c7208614/5e7d3cf671abc60ae32d3960/EU_-_descriptor_in-game-purchase.png?&height=100&disable=upscale" alt="">
+<img src="https://images.contentstack.io/v3/assets/blt0eb2a2986b796d29/bltff21ad2608691057/5e7a5c251cab8108eff538f1/Germany_-_16_(small).png?&height=100&disable=upscale" alt="">
+</div>
+  </div>
+
+</footer>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/ef5a027954.js" crossorigin="anonymous"></script>
+</body>
+</html>
